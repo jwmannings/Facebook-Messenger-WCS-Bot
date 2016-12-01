@@ -1,0 +1,7 @@
+{
+    "appSecret": "<FACEBOOK_APP_SECRET>",
+    "pageAccessToken": "<PAGE_ACCESS_TOKEN>",
+    "validationToken": "<WEBHOOK_VERIFY_TOKEN>",
+    "serverURL": "https://jeremiahresumebot.mybluemix.net/",
+    "workspace_id" : "adc6aa55-80f5-469f-8df5-2ed7b8fca357"
+}

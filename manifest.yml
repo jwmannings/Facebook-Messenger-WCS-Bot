@@ -1,0 +1,17 @@
+---
+declared-services:
+  conversation-service:
+    label: conversation
+    plan: free
+  memcached-service:
+    label: memcachedcloud
+    plan: 30mb
+applications:
+- name: JeremiahResumeBot
+  command: npm start
+  path: .
+  memory: 1GB
+  instances: 1
+  services:
+  - Conversation-Resume
+  - Memcache-Resume
